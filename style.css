@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    
+}
+
+body{
+    line-height: 1.5em;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+}
+
+ul{
+    gap: 10px;
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+nav a{
+    padding: 10px 7px;
+    width: 100%;    
+}
+
+a{
+    font-weight: 600;
+    font-size: 1.4em;
+    color: black;
+}
