@@ -29,7 +29,7 @@ header{
 nav a{
     padding: 10px 7px;
     width: 100%;
-    font-size: clamp( 1em, 1.4vw, 1.5em);
+    font-size: clamp( 1.3em, 1.4vw, 1.5em);
     color: black;    
 }
 
@@ -40,49 +40,49 @@ ul{
 }
 
 #htmlicon{
-    color: #f83e0f;
+    color: #f83e0f71;
 }
 #htmlicon:hover{
-    color: #f83e0f;
+    color: #f83e0fc2;
     text-shadow: 0px 0px 10px #f83e0f;
 }
 #cssicon{
-    color: #264de4;
+    color: #264ce46c;
 }
 #cssicon:hover{
     color: #264de4;
     text-shadow: 0px 0px 10px #264de4;
 }
 #jsicon{
-    color: #d4bf34;
+    color: #d4bf3477;
 }
 #jsicon:hover{
     color: #d4bf34;
     text-shadow: 0px 0px 10px #d4bf34;
 }
 #reacticon{
-    color: #61dafb;
+    color: #3ad4ff9a;
 }
 #reacticon:hover{
-    color: #61dafb;
+    color: #4cd6fc;
     text-shadow: 0px 0px 10px #61dafb;
 }
 #nodeicon{
-    color: #27ca27;
+    color: #27ca2798;
 }
 #nodeicon:hover{
     color: #27ca27;
     text-shadow: 0px 0px 10px #27ca27;
 }
 #javaicon{
-    color: #207ef8;
+    color: #1b61f769;
 }
 #javaicon:hover{
-    color: #207ef8;
+    color: #1b61f7;
     text-shadow: 0px 0px 10px #207ef8;
 }
 #pyicon{
-    color: rgb(36, 113, 255);
+    color: rgba(36, 113, 255, 0.397);
 }
 #pyicon:hover{
     color: rgb(36, 113, 255);
@@ -122,6 +122,10 @@ section img{
     max-width: 300px;
 }
 
+section img:hover{
+    width: 320px;
+}
+
 section article{
     display: flex;
     flex-flow: row wrap;
@@ -135,7 +139,10 @@ section article{
 }
 
 section article:hover{
-    transform: translate(10px, 10px);
+    transform: translate(5px, 5px);
+    width: 100%;
+    max-width: 320px;
+    height: 250px;
 }
 
 article div h2{
