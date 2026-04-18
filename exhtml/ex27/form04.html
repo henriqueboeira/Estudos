@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.py" method="post">
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <label for="iname">Nome:</label>
+            <input type="text" name="iname" id="iname" minlength="2" maxlength="30" required>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade" required min="14" max="100">
+            <label for="datan">Data de Nascimento:</label>
+            <input type="date" name="datan" id="datan" required>
+            <label for="gmail">Email:</label>
+            <input type="email" name="gmail" id="gmail" minlength="5" maxlength="30" autocomplete="email">
+            <label for="Itel">Telefone:</label>
+            <input type="tel" name="Itel" id="Itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00) 00000-0000">
+        </fieldset>
+
+        <fieldset>
+            <legend>dados bancarios</legend>
+            <label for="inc">Numero do Cartão de Credito:</label>
+            <input type="number" name="inc" id="inc" minlength="8" required>
+            <label for="cvv">CVV:</label>
+            <input type="number" name="cvv" id="cvv" minlength="3" maxlength="3" required>
+            <label for="dtv">Data de Vencimento</label>
+            <input type="date" name="dtv" id="dtv" required>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>

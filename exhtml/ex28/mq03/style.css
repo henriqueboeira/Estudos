@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*declarações retrato*/
+@media screen and (orientation: portrait) {
+    body {
+        background: url(img/Captura\ de\ tela\ 2026-03-19\ 134404.png) center bottom no-repeat;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background: url(img/Captura\ de\ tela\ 2026-03-19\ 134342.png) left bottom no-repeat;
+    }
+}
+
+@media screen {
+
+    /*declarações gerais*/
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html,
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #132ef3;
+        background-size: contain;
+    }
+
+    h1 {
+        color: white;
+        text-shadow: 2px 2px 0px #1527ad;
+        padding: 10px;
+    }
+
+}

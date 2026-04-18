@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>tente abrir este site em vários dispositivos diferentes ou simplesmente sumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem grande">
+    </picture>
+    <h1>reproduzindo áudio</h1>
+    <p>vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/vainovinha.mp3" type="audio/mpeg">
+        <source src="audio/vainovinha.ogg" type="audio/ogg">
+        <source src="audio/vainovinha.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir áudio <a href="audio/vainovinha.mp3"> clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+<body>                                     
+</html> 

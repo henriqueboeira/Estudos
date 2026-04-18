@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="Estados">Estados:</label>
+    <div>
+        <select name="Estados" id="Estados">
+            <p>
+                <optgroup label="SUL">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="Sc">Santa Catarina</option>
+                    <option value="Pr">Paraná</option>
+                </optgroup>
+            </p>
+            <p>
+                <optgroup label="sudeste">
+                    <option value="Rj">Rio de Janeiro</option>
+                    <option value="Sp">São Paulo</option>
+                    <option value="Mg">Minas Gerais</option>
+                </optgroup>
+            </p>
+        </select>
+    </div>
+    <div>
+        <label for="prof">Profissões</label>
+        <input type="text" name="prof" id="prof" list="istprof">
+        <datalist id="istprof">
+            <option value="dev">Desenvolvedor</option>
+        </datalist>
+    </div>
+    
+    <p>
+        <label for="msg">Menssagem:</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+    </p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Apagar">
+</body>
+</html>

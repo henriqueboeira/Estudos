@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media print {
+        *{font-family: 'Courier New', Courier, monospace;}
+       body {
+        #cel {display: none;}
+        #tablet {display: none;}
+        #print {display: block;}
+        #pc {display: none;}
+        #tv {display: none;}
+    }
+    main{border: 2px solid black;}
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after{
+        content: "esse conteudo é para impressoras";
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background: url(../img/back-tablet.jfif) no-repeat center center/cover;
+
+        #cel {display: none;}
+        #tablet {display: block;}
+        #print {display: none;}
+        #pc {display: none;}
+        #tv {display: none;}
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        background: url(../img/back-pc.jpg) no-repeat center center/cover;
+
+        #cel {display: none;}
+        #tablet {display: none;}
+        #print {display: none;}
+        #pc {display: block;}
+        #tv {display: none;}
+    }
+}
+
+@media screen and (min-width: 1200px) {
+        body {
+            background: url(../img/back-tv.png) no-repeat center center/cover;
+
+        #cel {display: none;}
+        #tablet {display: none;}
+        #print {display: none;}
+        #pc {display: none;}
+        #tv {display: block;}
+    }
+}

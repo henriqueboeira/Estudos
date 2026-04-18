@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            margin-top: 10px;
+        }
+        input{
+            border: 1px solid rgba(0, 0, 0, 0.425);
+            border-radius: 5px;
+            background-color: rgba(215, 219, 219, 0.486);
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de forularios</h1>
+    <form action="cadastro.py" method="post" autocomplete="on">
+        <div>
+            <label for="iusu">Usuario:</label>
+            <input type="text" name="usu" id="iusu" required size="10" autocomplete="username">
+        </div>
+        <div>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required size="10" autocomplete="new-password">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </div>
+        
+
+    </form>
+</body>
+</html>

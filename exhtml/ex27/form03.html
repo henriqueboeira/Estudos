@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <form action="get">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="inome" id="inome" maxlength="30" minlength="2" required placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Media:</label>
+            <input type="number" name="imedia" id="imedia" min="0" max="10"
+            placeholder="0 A 10" required step="0.1">
+        </p>
+        <p>
+            <label for="imonth"> Periodo Letivo:</label>
+            <input type="month" name="imonth" id="imonth" value="2020-02">
+        </p>
+        <p>
+            <label for="idate">Dia da Prova</label>
+            <input type="date" name="idate" id="idate" value="2020-07-13">
+        </p>
+        <p>
+            <label for="itime">Horario da Prova</label>
+            <input type="time" name="itime" id="itime" value="08:30" max="12:00">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+            
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&display=swap');
+    body{
+        background-image: linear-gradient( 210deg,#03A688, #011F26);
+        background-attachment: fixed;
+    }
+
+    h1#titulo{
+        text-align: center;
+        font: 2.9em 'BBH Bogle';
+        color:  #025e73a1;
+        border-radius: 2em;
+        width: 8em;
+        margin: auto;
+    }
+    h1{
+        padding: 0.2em;
+        font: italic 900 2em Amarna;
+        color: #011F26;
+        
+
+    }
+
+   .aprendendo{
+    font: 2.9em 'BBH Bogle';
+    font-size: 2.4em;
+   }
+
+   .teste{
+    color: rgba(114, 202, 114, 0.534);
+   }
+   div#d1{
+        display: inline-block;
+         width: 600px;
+        padding: 1em;
+        text-align: justify;
+        background-color: aliceblue;
+        margin: 2em;
+        background-image: linear-gradient(210deg,#03A688, #011F26);
+        border-radius: 1em;
+        box-shadow: 0.1em 0.1em 3.4em;
+   }
+
+   div#d2{
+        display: inline-block;
+        width: 600px;
+        padding: 1em;
+        text-align: justify;
+        background-color: aliceblue;
+        margin: 2em;
+        background-image: linear-gradient(-40deg,#011F26, #03A688);
+        border-radius: 1em;
+        box-shadow: 0.1em 0.1em 3.4em;
+   }
