@@ -101,6 +101,29 @@ main p{
     padding: 0px 10px;
 }
 
+#htmliconi{
+    color: #f83e0fd2;
+}
+#cssiconi{
+    color: #264ce4cb;
+}
+#jsiconi{
+    color: #f7d70d;
+}
+#nodeiconi{
+    color: #27ca27cc;
+}
+#reacticoni{
+    color: #3ad4ff9a;
+}
+#javaiconi{
+    color: #1b61f7;
+}
+#pyiconi{
+    color: rgb(86, 144, 252);
+}
+
+
 section{
     margin: auto;
     display: flex;
@@ -132,6 +155,7 @@ section img:hover{
 }
 
 section article{
+    background:  rgba(4, 137, 245, 0.185);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -162,3 +186,4 @@ article div{
 section> article> h2{
     cursor: pointer;
 }
+

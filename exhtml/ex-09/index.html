@@ -1,34 +1,101 @@
 <!DOCTYPE html>
+<!-- Criar listas numeradas em HTML -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icons8-javascript-32.png" type="image/x-icon">
-    <title>outras formatações</title>
+    <title>Listas numeradas</title>
 </head>
 <body>
-    <h1>outas formatações</h1>
-    <h2>código fonte / pré-formatação</h2>
-    <p>o comando <code>document.getElementById</code> ("teste") é escrito em JavaScript.</p>
-    <pre>
-        <code>
-    nun = int(input('digite um número'))
-    if num %2 == 0:
-        pritn('f'0 número {num} é PAR')
-    else:
-        print('f'0 número {num} é ímpar')
-        </code>
-    </pre>
-    <h2>citações</h2>
-    <p>como diria o pai de um amigo: <q>o computador é um burro muito rapido.</q></p>
-    <h2>citações completas</h2>
-    <p>sgundo jeff noble, no seu livro HTML para leigos</p>
-    <blockquote cite="https://www.google.com.br/books/edition/HTML_for_the_World_Wide_Web/Dq9L3KkDOFIC?hl=pt-BR&gbpv=1&dq=html&pg=PA35&printsec=frontcover"> 
-        a diferença entre elementos incline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote>
-        <h2>abreviações</h2>
-        <p>estou estudando <abbr title="HyperText Markup Language">html</abbr> e <abbr title="Cascading Style Sheets">css</abbr>. Estou adorando.</p>
-        <h2>texto invertido</h2>
-        <p> <bdo dir="rtl">estou aprendendo a criar coisas em HTML.</bdo></p>
-
+    <h1>Listas Ordenadas</h1>
+    <h2>Listas em números tradicionais</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <h2>Listas em números romanos</h2>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <h2>Listas literais</h2>
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <h1>Listas com marcadores</h1>
+    <h2>Marcador padrão</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <h2>Marcador quadrado</h2>
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <h2>Marcador circular</h2>
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <h1>Listas Mistas</h1>
+    <h2>Mistas enumeradas</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="a">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <h2>Mistas demarcadas</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul type="circle">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ul>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <h2>Mistas completas</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul type="square">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ul>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
 </body>
 </html>

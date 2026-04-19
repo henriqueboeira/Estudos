@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midias em HTML5</title>
+    <title>videos</title>
 </head>
 <body>
-    <h1>imagens dinâmicas</h1>
-    <p>tente abrir este site em vários dispositivos diferentes ou simplesmente sumente e diminua o tamanho do seu navegador</p>
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
-        <source media="(max-width: 1050px )" srcset="imagens/m.png" type="image/png">
-        <img src="imagens/g.png" alt="imagem grande">
-    </picture>
-    <h1>reproduzindo áudio</h1>
-    <p>vamos aprender a reproduzir áudios em HTML5</p>
-    <audio preload="metadata" autoplay controls loop>
-        <source src="audio/vainovinha.mp3" type="audio/mpeg">
-        <source src="audio/vainovinha.ogg" type="audio/ogg">
-        <source src="audio/vainovinha.wav" type="audio/wav">
-        <p>infelizmente seu navegador não consegue reproduzir áudio <a href="audio/vainovinha.mp3"> clique aqui para baixar o arquivo mp3</a></p>
-    </audio>
-<body>                                     
-</html> 
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>este video está hospedado no meu próprio servidor.</p>
+    <video muted autoplay width="400px" poster="Captura de tela 2025-11-19 112519.png" controls autoplay>
+        <source src="14610977_3840_2160_30fps.mp4" type="video/mp4">
+        <source src="14610977 3840 2160 30Fps.mkv" type="video/mkv">
+        <source src="14610977 3840 2160 30Fps.webm" type="video/webm">
+        <p>seu navegador não tem compatibilidade com reprodução de vídeos.
+            <a href="14610977_3840_2160_30fps.mp4"></a>
+        </p>
+
+    </video>
+    <h1>inserindo videos do vimeo</h1>
+   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/750231066?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="JAWNY - adios [Official Music Video]"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
