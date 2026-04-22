@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5F2C82;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    width: 300px;
+    height: 555px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    text-align: center;
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+#img {
+    width: 300px;
+    height: 220px;
+    background: url(../img/pexels-karola-g-4862957.jpg) no-repeat center center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+form{
+    padding: 10px;
+    font-size: .9em;
+}
+
+.campo{
+    display: inline-block;
+    background-color: var(--lilas);
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.campo img{
+    width: 30px;
+    transform: translateY(5px);
+}
+
+.campo label{
+    display: none;
+}
+
+.campo input{
+    width: calc(100% - 16%);
+    height: 86%;
+    border-radius: 10px;
+    border: none;
+    font-size: .9em;
+    padding: 0px 5px;
+    transform: translateY(-3px);
+}
+
+#send {
+    background-color: var(--verde);
+    border: none;
+    color: white;
+}
+
+#send:hover{
+    background-color: #2e615e;
+}
+
+#esq {
+    border: 1px solid var(--verde);
+    color:  #3d7c78;
+}
+
+#esq:hover{
+    background-color: #51b4adc5;
+}
+
+#send,#esq {
+    border-radius: 10px;
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    font: 400 1.2em arial, helvetica, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
