@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --red: #ffffff;
 }
 
-body{
+body {
     line-height: 1.5em;
     text-align: center;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     padding: 10px;
@@ -26,136 +26,155 @@ header{
     backdrop-filter: blur(2px);
 }
 
-nav a{
+nav a {
     padding: 10px 7px;
     width: 100%;
-    font-size: clamp( 1.3em, 1.4vw, 1.5em);
-    color: black;    
+    font-size: clamp(1.3em, 1.4vw, 1.5em);
+    color: black;
 }
 
-ul{
+ul {
     gap: 10px;
     display: flex;
     list-style: none;
 }
 
-#htmlicon{
+#htmlicon {
     color: #f83e0f71;
 }
-#htmlicon:hover{
+
+#htmlicon:hover {
     color: #f83e0fc2;
     text-shadow: 0px 0px 10px #f83e0f;
 }
-#cssicon{
+
+#cssicon {
     color: #264ce46c;
 }
-#cssicon:hover{
+
+#cssicon:hover {
     color: #264de4;
     text-shadow: 0px 0px 10px #264de4;
 }
-#jsicon{
+
+#jsicon {
     color: #d4bf3477;
 }
-#jsicon:hover{
+
+#jsicon:hover {
     color: #d4bf34;
     text-shadow: 0px 0px 10px #d4bf34;
 }
-#reacticon{
+
+#reacticon {
     color: #3ad4ff9a;
 }
-#reacticon:hover{
+
+#reacticon:hover {
     color: #4cd6fc;
     text-shadow: 0px 0px 10px #61dafb;
 }
-#nodeicon{
+
+#nodeicon {
     color: #27ca2798;
 }
-#nodeicon:hover{
+
+#nodeicon:hover {
     color: #27ca27;
     text-shadow: 0px 0px 10px #27ca27;
 }
-#javaicon{
+
+#javaicon {
     color: #1b61f769;
 }
-#javaicon:hover{
+
+#javaicon:hover {
     color: #1b61f7;
     text-shadow: 0px 0px 10px #207ef8;
 }
-#pyicon{
+
+#pyicon {
     color: rgba(36, 113, 255, 0.397);
 }
-#pyicon:hover{
+
+#pyicon:hover {
     color: rgb(36, 113, 255);
     text-shadow: 0px 0px 10px rgb(36, 113, 255);
 }
 
-main{
+main {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
 }
 
-main p{
+main p {
     white-space: pre-line;
     text-align: center;
     padding: 0px 10px;
 }
 
-#htmliconi{
+#htmliconi {
     color: #f83e0fd2;
 }
-#cssiconi{
+
+#cssiconi {
     color: #264ce4cb;
 }
-#jsiconi{
+
+#jsiconi {
     color: #f7d70d;
 }
-#nodeiconi{
+
+#nodeiconi {
     color: #27ca27cc;
 }
-#reacticoni{
+
+#reacticoni {
     color: #3ad4ff9a;
 }
-#javaiconi{
+
+#javaiconi {
     color: #1b61f7;
 }
-#pyiconi{
+
+#pyiconi {
     color: rgb(86, 144, 252);
 }
 
 
-section{
+section {
     margin: auto;
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
     max-width: 1000px;
     height: 100%;
-    gap: 20px; 
+    gap: 20px;
 }
 
-section a{
+section a {
     text-decoration: none;
     color: black;
 }
 
-section h2{
+section h2 {
     text-align: center;
 }
 
-section img{
+section img {
     width: 100%;
     max-width: 300px;
 }
 
-section img:hover{
-    transform: scale(1.06);  
+section img:hover {
+    transform: scale(1.06);
 }
 
-section article{
-    background:  rgba(4, 137, 245, 0.185);
+section article {
+    background: rgba(4, 137, 245, 0.185);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -167,57 +186,57 @@ section article{
     transition: transform .2s ease;
 }
 
-section article:hover{
+section article:hover {
     transform: scale(1.1);
     width: 100%;
     max-width: 320px;
     height: 250px;
 }
 
-article div h2{
+article div h2 {
     text-align: center;
 }
 
-article div{
+article div {
     width: 100%;
     max-width: 300px;
 }
 
-section> article> h2{
+section>article>h2 {
     cursor: pointer;
 }
 
-footer{
+footer {
     height: 100%;
     height: 90px;
     margin-top: 80px;
     background-color: #416cf7;
 }
 
-footer p{
+footer p {
     font-size: 1.5em;
     margin-bottom: 15px;
 }
 
-footer li{
+footer li {
     width: 200px;
     margin: auto;
 }
 
-footer a{
+footer a {
     font-size: 30px;
     color: transparent;
 }
 
-#github{
+#github {
     color: white;
 }
 
-#linkedin{
+#linkedin {
     color: rgb(10, 102, 194);
 }
 
-#instagram{
-    background: linear-gradient(to right, red, blue);
+#instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
     background-clip: text;
 }
