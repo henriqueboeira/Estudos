@@ -28,7 +28,7 @@ section{
 }
 
 article{
-    font-size: clamp(0.6rem, 1vw, .9em);
+    font-size: clamp(0.6rem, 1vw, .8em);
     border: 1px solid black;
     text-align: center;
     padding: 10px;
