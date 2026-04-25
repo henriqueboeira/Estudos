@@ -1,2 +1,37 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+     font-size: clamp(.9em, 1vw, 2em);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 900px;
+    gap: 10px;
+}
+
+article{
+    font-size: clamp(0.6rem, 1vw, .8em);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

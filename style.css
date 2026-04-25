@@ -229,7 +229,7 @@ footer a {
 }
 
 #github {
-    color: white;
+    color: rgba(255, 255, 255, 0.767);
 }
 
 #linkedin {
@@ -239,4 +239,23 @@ footer a {
 #instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
     background-clip: text;
+}
+
+#github:hover{
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.479);
+}
+
+#linkedin:hover{
+    color: rgb(15, 108, 201);
+    text-shadow: 0px 0px 10px rgba(63, 156, 248, 0.781);
+}
+
+#instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #f7f0a5 0%,#fcf5a9 5%,#fd6658 45%,#fd29ba 60%,#3b6af7 90%);
+    background-clip: text;
+    background: linear-gradient(circle at 30% 107%, #f7f2c2 0%,#faf5b9 5%,#f8766a 45%,#f846c0 60%,#537cf7 90%);
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 10px rgba(255,100,100,.8));
 }
